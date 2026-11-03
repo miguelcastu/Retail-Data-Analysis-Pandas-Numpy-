@@ -11,8 +11,11 @@ data cleaning, grouped metrics, descriptive statistics and a seeded simulation.
 Create a Python environment with Jupyter, Pandas and NumPy, launch Jupyter from
 this repository root, and open `analisis_red_tiendas.ipynb`. Keep `sales.csv`,
 `inventories.csv` and `satisfaction.csv` beside the notebook. Dependencies are not
-locked; a fresh-kernel execution was not performed during this audit. Saved
-outputs are historical artifacts, not independently verified business findings.
+locked. Author-machine paths have been replaced with repository-relative CSV
+paths. Code cells compile and the three relative input paths exist. Full execution
+was blocked because local application-control policy rejected a Pandas DLL;
+Jupyter was not launched and saved outputs were not regenerated. Those outputs
+remain historical artifacts, not independently verified business findings.
 
 ## Original notebook guide
 
