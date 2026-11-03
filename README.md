@@ -1,3 +1,25 @@
+# Retail Analysis — Pandas / NumPy Notebook
+
+A historical notebook exercise for the fictional company RetailNow, exploring
+store sales, inventory and satisfaction using three local CSV inputs. It shows
+data cleaning, grouped metrics, descriptive statistics and a seeded simulation.
+
+[Engineering portfolio](https://github.com/miguelcastu/miguelcastu) · [Project directory](https://github.com/miguelcastu/miguelcastu/blob/main/PROJECTS.md)
+
+## Reproduce the notebook
+
+Create a Python environment with Jupyter, Pandas and NumPy, launch Jupyter from
+this repository root, and open `analisis_red_tiendas.ipynb`. Keep `sales.csv`,
+`inventories.csv` and `satisfaction.csv` beside the notebook. Dependencies are not
+locked. Author-machine paths have been replaced with repository-relative CSV
+paths. Code cells compile and the three relative input paths exist. Full execution
+was blocked because local application-control policy rejected a Pandas DLL;
+Jupyter was not launched and saved outputs were not regenerated. Those outputs
+remain historical artifacts, not independently verified business findings.
+
+## Original notebook guide
+
+
 # 📊 Retail Data Analysis with Pandas & Numpy
 
 This repository contains a complete data analysis project for the fictional company **RetailNow**, implemented in a Jupyter Notebook.
@@ -38,3 +60,4 @@ This repository contains a complete data analysis project for the fictional comp
 ## ▶️ Requirements
 ```bash
 pip install pandas numpy
+```
